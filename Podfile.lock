@@ -1,0 +1,523 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AFViewShaker (0.0.2)
+  - APFCompatibleKit (1.0.5):
+    - APFCompatibleKit/Source (= 1.0.5)
+  - APFCompatibleKit/Source (1.0.5)
+  - APFContentProvider (1.0.5):
+    - APFContentProvider/Release (= 1.0.5)
+    - FMDB (~> 2.6.2)
+    - MUPFoundation (~> 0.5.36)
+    - SmartCan
+  - APFContentProvider/Release (1.0.5):
+    - FMDB (~> 2.6.2)
+    - MUPFoundation (~> 0.5.36)
+    - SmartCan
+  - APFExceptionCollectionSDK (1.0.7):
+    - APFExceptionCollectionSDK/Release (= 1.0.7)
+    - SmartCan (~> 0.5.44)
+  - APFExceptionCollectionSDK/Release (1.0.7):
+    - SmartCan (~> 0.5.44)
+  - APFKit (0.1.214):
+    - APFContentProvider (~> 1.0.0)
+    - APFReactNativeKit (~> 1.1.0)
+    - APFWebKit (~> 1.0.35)
+    - CSNotificationView (~> 0.5.4)
+    - libextobjc (~> 0.4.1)
+    - M13OrderedDictionary (~> 1.1.0)
+    - Masonry (~> 0.6.4)
+    - MBProgressHUD (~> 0.9.1)
+    - MUPAssetsKit (~> 1.0.10)
+    - PSPDFUIKitMainThreadGuard-SDP (= 1.19.1)
+    - PSTAlertController (~> 1.1.0)
+    - SSZipArchive (~> 1.6.2)
+    - YTKKeyValueStore (~> 0.1.2)
+  - APFReactNativeKit (1.1.0):
+    - APFReactNativeKit/Release (= 1.1.0)
+    - CSNotificationView (~> 0.5.4)
+    - MUIMultiPhotoController (~> 0.2.33)
+    - MUIPullRefreshView (~> 0.2.13)
+    - React (~> 0.44.0)
+    - React/ART (~> 0.44.0)
+    - React/Core (~> 0.44.0)
+    - React/cxxreact (~> 0.44.0)
+    - React/DevSupport (~> 0.44.0)
+    - React/jschelpers (~> 0.44.0)
+    - React/RCTActionSheet (~> 0.44.0)
+    - React/RCTAnimation (~> 0.44.0)
+    - React/RCTCameraRoll (~> 0.44.0)
+    - React/RCTGeolocation (~> 0.44.0)
+    - React/RCTImage (~> 0.44.0)
+    - React/RCTLinkingIOS (~> 0.44.0)
+    - React/RCTNetwork (~> 0.44.0)
+    - React/RCTPushNotification (~> 0.44.0)
+    - React/RCTSettings (~> 0.44.0)
+    - React/RCTText (~> 0.44.0)
+    - React/RCTVibration (~> 0.44.0)
+    - React/RCTWebSocket (~> 0.44.0)
+    - React/tvOS (~> 0.44.0)
+    - SmartCan
+    - Yoga (= 0.44.0.React)
+  - APFReactNativeKit/Release (1.1.0):
+    - CSNotificationView (~> 0.5.4)
+    - MUIMultiPhotoController (~> 0.2.33)
+    - MUIPullRefreshView (~> 0.2.13)
+    - React (~> 0.44.0)
+    - React/ART (~> 0.44.0)
+    - React/Core (~> 0.44.0)
+    - React/cxxreact (~> 0.44.0)
+    - React/DevSupport (~> 0.44.0)
+    - React/jschelpers (~> 0.44.0)
+    - React/RCTActionSheet (~> 0.44.0)
+    - React/RCTAnimation (~> 0.44.0)
+    - React/RCTCameraRoll (~> 0.44.0)
+    - React/RCTGeolocation (~> 0.44.0)
+    - React/RCTImage (~> 0.44.0)
+    - React/RCTLinkingIOS (~> 0.44.0)
+    - React/RCTNetwork (~> 0.44.0)
+    - React/RCTPushNotification (~> 0.44.0)
+    - React/RCTSettings (~> 0.44.0)
+    - React/RCTText (~> 0.44.0)
+    - React/RCTVibration (~> 0.44.0)
+    - React/RCTWebSocket (~> 0.44.0)
+    - React/tvOS (~> 0.44.0)
+    - SmartCan
+    - Yoga (= 0.44.0.React)
+  - APFUIKit (1.0.7):
+    - APFUIKit/Release (= 1.0.7)
+    - SmartCan
+  - APFUIKit/Release (1.0.7):
+    - SmartCan
+  - APFWebKit (1.0.57):
+    - MUIPullRefreshView (~> 0.2.8)
+    - MUPFoundation (~> 0.5.37)
+    - SmartCan (~> 0.5.68)
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - CephS3SDK (1.4.6):
+    - AFNetworking (~> 2.5.4)
+    - APFExceptionCollectionSDK (~> 1.0.0)
+    - CephS3SDK/Release (= 1.4.6)
+    - SmartCan (~> 0.5.5)
+  - CephS3SDK/Release (1.4.6):
+    - AFNetworking (~> 2.5.4)
+    - APFExceptionCollectionSDK (~> 1.0.0)
+    - SmartCan (~> 0.5.5)
+  - CLOfficeSDK (0.2.33):
+    - APFKit
+    - CLOfficeSDK/Release (= 0.2.33)
+    - COCommonUtils
+    - MUPFoundationNetworking
+    - UCSDK
+  - CLOfficeSDK/Release (0.2.33):
+    - APFKit
+    - COCommonUtils
+    - MUPFoundationNetworking
+    - UCSDK
+  - CocoaLumberjack (2.0.3):
+    - CocoaLumberjack/Default (= 2.0.3)
+    - CocoaLumberjack/Extensions (= 2.0.3)
+  - CocoaLumberjack/Core (2.0.3)
+  - CocoaLumberjack/Default (2.0.3):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.0.3):
+    - CocoaLumberjack/Default
+  - COCommonUIKit (0.3.38):
+    - AFViewShaker
+    - CLOfficeSDK (~> 0.2.6)
+    - COCommonUIKit/Release (= 0.3.38)
+    - Masonry
+    - MBProgressHud+MUIExtend
+    - UCExtend
+  - COCommonUIKit/Release (0.3.38):
+    - AFViewShaker
+    - CLOfficeSDK (~> 0.2.6)
+    - Masonry
+    - MBProgressHud+MUIExtend
+    - UCExtend
+  - COCommonUtils (0.0.22):
+    - COCommonUtils/Release (= 0.0.22)
+    - Mantle
+    - MBProgressHUD
+    - MUPFoundation
+  - COCommonUtils/Release (0.0.22):
+    - Mantle
+    - MBProgressHUD
+    - MUPFoundation
+  - ContentServiceSDK (0.2.73):
+    - APFExceptionCollectionSDK (~> 1.0.3)
+    - APFUIKit (~> 1.0.4)
+    - CephS3SDK
+    - ContentServiceSDK/Release (= 0.2.73)
+    - SDWebImage (~> 3.7.5)
+    - SmartCan (~> 0.5.58)
+  - ContentServiceSDK/Release (0.2.73):
+    - APFExceptionCollectionSDK (~> 1.0.3)
+    - APFUIKit (~> 1.0.4)
+    - CephS3SDK
+    - SDWebImage (~> 3.7.5)
+    - SmartCan (~> 0.5.58)
+  - CSBaseSDK (1.0.4):
+    - CSBaseSDK/Release (= 1.0.4)
+    - Mantle
+  - CSBaseSDK/Release (1.0.4):
+    - Mantle
+  - CSNotificationView (0.5.4)
+  - CSObjectSDK (1.1.22):
+    - APFExceptionCollectionSDK (~> 1.0.0)
+    - CephS3SDK (~> 1.4.4)
+    - CSBaseSDK (~> 1.0.3)
+    - SmartCan (~> 0.5.52)
+  - FLAnimatedImage (1.0.12)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - JRSwizzle (1.0)
+  - KVOController (1.0.3)
+  - libextobjc (0.4.1):
+    - libextobjc/EXTADT (= 0.4.1)
+    - libextobjc/EXTConcreteProtocol (= 0.4.1)
+    - libextobjc/EXTKeyPathCoding (= 0.4.1)
+    - libextobjc/EXTNil (= 0.4.1)
+    - libextobjc/EXTSafeCategory (= 0.4.1)
+    - libextobjc/EXTScope (= 0.4.1)
+    - libextobjc/EXTSelectorChecking (= 0.4.1)
+    - libextobjc/EXTSynthesize (= 0.4.1)
+    - libextobjc/NSInvocation+EXT (= 0.4.1)
+    - libextobjc/NSMethodSignature+EXT (= 0.4.1)
+    - libextobjc/RuntimeExtensions (= 0.4.1)
+    - libextobjc/UmbrellaHeader (= 0.4.1)
+  - libextobjc/EXTADT (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTConcreteProtocol (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTKeyPathCoding (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTNil (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSafeCategory (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTScope (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSelectorChecking (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSynthesize (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/NSInvocation+EXT (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/NSMethodSignature+EXT (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/RuntimeExtensions (0.4.1)
+  - libextobjc/UmbrellaHeader (0.4.1)
+  - libwebp (0.5.0):
+    - libwebp/core (= 0.5.0)
+    - libwebp/dec (= 0.5.0)
+    - libwebp/demux (= 0.5.0)
+    - libwebp/dsp (= 0.5.0)
+    - libwebp/enc (= 0.5.0)
+    - libwebp/mux (= 0.5.0)
+    - libwebp/utils (= 0.5.0)
+    - libwebp/webp (= 0.5.0)
+  - libwebp/core (0.5.0):
+    - libwebp/webp
+  - libwebp/dec (0.5.0):
+    - libwebp/core
+  - libwebp/demux (0.5.0):
+    - libwebp/core
+  - libwebp/dsp (0.5.0):
+    - libwebp/core
+  - libwebp/enc (0.5.0):
+    - libwebp/core
+  - libwebp/mux (0.5.0):
+    - libwebp/core
+  - libwebp/utils (0.5.0):
+    - libwebp/core
+  - libwebp/webp (0.5.0)
+  - M13OrderedDictionary (1.1.0)
+  - Mantle (2.0.7):
+    - Mantle/extobjc (= 2.0.7)
+  - Mantle/extobjc (2.0.7)
+  - Masonry (0.6.4)
+  - MBProgressHUD (0.9.2)
+  - MBProgressHud+MUIExtend (0.0.9):
+    - MBProgressHUD (~> 0.9.1)
+  - MTLFMDBAdapter (0.2.2):
+    - FMDB (~> 2.3)
+    - Mantle (~> 2.0)
+  - MUIKit (0.0.28):
+    - JRSwizzle (~> 1.0)
+    - MUIKit/Release (= 0.0.28)
+    - MUPAssetsKit
+  - MUIKit/Release (0.0.28):
+    - JRSwizzle (~> 1.0)
+    - MUPAssetsKit
+  - MUIMultiPhotoController (0.2.96):
+    - APFUIKit (~> 1.0.4)
+    - BlocksKit (~> 2.2.1)
+    - ContentServiceSDK (~> 0.2.45)
+    - FLAnimatedImage (~> 1.0.12)
+    - MBProgressHUD (~> 0.9.1)
+    - MUIKit (~> 0.0.25)
+    - MUPAssetsKit (~> 1.0.2)
+    - MUPFoundation (~> 0.5.17)
+    - Reachability (~> 3.2)
+    - SDWebImage (~> 3.7.2)
+  - MUIPullRefreshView (0.2.15):
+    - BlocksKit (~> 2.2.5)
+    - KVOController (~> 1.0.3)
+    - MUIPullRefreshView/Release (= 0.2.15)
+    - MUPFoundation (~> 0.5.17)
+  - MUIPullRefreshView/Release (0.2.15):
+    - BlocksKit (~> 2.2.5)
+    - KVOController (~> 1.0.3)
+    - MUPFoundation (~> 0.5.17)
+  - MUPAssetsKit (1.0.11):
+    - libwebp (~> 0.5.0)
+    - MUPFoundation (~> 0.5.62)
+  - MUPFoundation (0.5.62):
+    - KVOController (~> 1.0.3)
+    - MUPFoundationNetworking (~> 1.0.0)
+    - MUPFoundationProfiler (~> 1.0.2)
+    - opencore-amr (~> 0.1.3)
+  - MUPFoundationNetworking (1.0.47):
+    - AFNetworking (~> 2.5.3)
+    - MUPFoundationUtils (~> 1.0.25)
+  - MUPFoundationProfiler (1.0.24):
+    - CocoaLumberjack (~> 2.0.1)
+    - SSZipArchive (~> 1.6.2)
+  - MUPFoundationUtils (1.0.25):
+    - libextobjc (~> 0.4.1)
+    - Mantle (~> 2.0.5)
+    - MUPFoundationProfiler (~> 1.0.5)
+  - MUPSQLiteORM (0.2.7):
+    - FMDB (~> 2.5)
+    - MUPFoundation (~> 0.5.55)
+    - MUPSQLiteORM/Release (= 0.2.7)
+  - MUPSQLiteORM/Release (0.2.7):
+    - FMDB (~> 2.5)
+    - MUPFoundation (~> 0.5.55)
+  - opencore-amr (0.1.4)
+  - PSPDFUIKitMainThreadGuard-SDP (1.19.1)
+  - PSTAlertController (1.1.0)
+  - Reachability (3.2)
+  - React (0.44.0):
+    - React/Core (= 0.44.0)
+  - React/ART (0.44.0):
+    - React/Core
+  - React/Core (0.44.0):
+    - React/cxxreact
+    - Yoga (= 0.44.0.React)
+  - React/cxxreact (0.44.0):
+    - React/jschelpers
+  - React/DevSupport (0.44.0):
+    - React/Core
+    - React/RCTWebSocket
+  - React/jschelpers (0.44.0)
+  - React/RCTActionSheet (0.44.0):
+    - React/Core
+  - React/RCTAnimation (0.44.0):
+    - React/Core
+  - React/RCTCameraRoll (0.44.0):
+    - React/Core
+    - React/RCTImage
+  - React/RCTGeolocation (0.44.0):
+    - React/Core
+  - React/RCTImage (0.44.0):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTLinkingIOS (0.44.0):
+    - React/Core
+  - React/RCTNetwork (0.44.0):
+    - React/Core
+  - React/RCTPushNotification (0.44.0):
+    - React/Core
+  - React/RCTSettings (0.44.0):
+    - React/Core
+  - React/RCTText (0.44.0):
+    - React/Core
+  - React/RCTVibration (0.44.0):
+    - React/Core
+  - React/RCTWebSocket (0.44.0):
+    - React/Core
+  - React/tvOS (0.44.0):
+    - React/Core
+  - RegexKitLite-SDP (4.0)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - SmartCan (0.5.69):
+    - MUPSQLiteORM (~> 0.2.1)
+    - SMCDataLayer (~> 0.4.39)
+  - SMCDataLayer (0.4.39):
+    - FMDB (~> 2.5)
+    - MUPFoundation (~> 0.5.55)
+  - SSKeychain (1.3.1)
+  - SSZipArchive (1.6.2)
+  - UCExtend (0.2.40):
+    - APFUIKit (~> 1.0.3)
+    - SDWebImage (~> 3.7.2)
+    - UCExtend/302Cache (= 0.2.40)
+    - UCExtend/Avatar (= 0.2.40)
+    - UCExtend/BusinessNickName (= 0.2.40)
+    - UCExtend/CircleAvatar (= 0.2.40)
+    - UCExtend/Core (= 0.2.40)
+    - UCExtend/Signture (= 0.2.40)
+    - UCExtend/User (= 0.2.40)
+    - UCSDK (~> 0.10.46)
+    - YTKKeyValueStore (~> 0.1.2)
+  - UCExtend/302Cache (0.2.40):
+    - APFUIKit (~> 1.0.3)
+    - MTLFMDBAdapter (~> 0.2.0)
+    - SDWebImage (~> 3.7.2)
+    - UCSDK (~> 0.10.46)
+    - YTKKeyValueStore (~> 0.1.2)
+  - UCExtend/Avatar (0.2.40):
+    - APFUIKit (~> 1.0.3)
+    - SDWebImage (~> 3.7.2)
+    - UCExtend/User
+    - UCSDK (~> 0.10.46)
+    - YTKKeyValueStore (~> 0.1.2)
+  - UCExtend/BusinessNickName (0.2.40):
+    - APFContentProvider (~> 1.0.4)
+    - APFUIKit (~> 1.0.3)
+    - MUPFoundation (~> 0.5.46)
+    - SDWebImage (~> 3.7.2)
+    - UCExtend/Core
+    - UCSDK (~> 0.10.46)
+    - YTKKeyValueStore (~> 0.1.2)
+  - UCExtend/CircleAvatar (0.2.40):
+    - APFUIKit (~> 1.0.3)
+    - SDWebImage (~> 3.7.2)
+    - UCExtend/User
+    - UCSDK (~> 0.10.46)
+    - YTKKeyValueStore (~> 0.1.2)
+  - UCExtend/Core (0.2.40):
+    - APFUIKit (~> 1.0.3)
+    - SDWebImage (~> 3.7.2)
+    - UCSDK (~> 0.10.46)
+    - YTKKeyValueStore (~> 0.1.2)
+  - UCExtend/Signture (0.2.40):
+    - APFContentProvider (~> 1.0.4)
+    - APFUIKit (~> 1.0.3)
+    - SDWebImage (~> 3.7.2)
+    - UCExtend/BusinessNickName
+    - UCExtend/Core
+    - UCSDK (~> 0.10.46)
+    - YTKKeyValueStore (~> 0.1.2)
+  - UCExtend/User (0.2.40):
+    - APFUIKit (~> 1.0.3)
+    - MUPFoundation (~> 0.5.46)
+    - SDWebImage (~> 3.7.2)
+    - UCExtend/302Cache
+    - UCExtend/Core
+    - UCSDK (~> 0.10.46)
+    - YTKKeyValueStore (~> 0.1.2)
+  - UCSDK (0.10.121):
+    - APFCompatibleKit (~> 1.0.0)
+    - APFExceptionCollectionSDK (~> 1.0.0)
+    - CSObjectSDK (~> 1.1.18)
+    - FMDB (~> 2.6.2)
+    - Reachability (~> 3.2)
+    - SmartCan (~> 0.5.67)
+    - SSKeychain (~> 1.3.1)
+  - Yoga (0.44.0.React)
+  - YTKKeyValueStore (0.1.2):
+    - FMDB (~> 2.0)
+
+DEPENDENCIES:
+  - COCommonUIKit
+  - RegexKitLite-SDP
+
+SPEC CHECKSUMS:
+  AFNetworking: f2251e79ea4ccaae947e83a2cdcc0e9777a4e847
+  AFViewShaker: 9f646e18e7bbc62c94d03d231b8365c6811345ab
+  APFCompatibleKit: 46ef8613e76f75d534bf121e9df9ca384a95b4e5
+  APFContentProvider: b99b0ba06adbee0ebcc9ebc06d563fb75a398d0a
+  APFExceptionCollectionSDK: 4e641f60514bc1f80a091bf8f909c2f91f63bf14
+  APFKit: 0c38d04507a2330a79816ad98197b3f237bbb8d3
+  APFReactNativeKit: 24e7c1c11c75f8ed1e093d27bef6fbe5b79b0d7c
+  APFUIKit: 89c323f22c908b2e70dc2c923214009f46bd076f
+  APFWebKit: eb0914bf2dfd89f8068f0c59c0e4265f3f48d581
+  BlocksKit: bd557e48fa448685f40b114e9f0daf0fd2c9c5c5
+  CephS3SDK: fceefe7d7d959d9616bb6617e1567e520b43416a
+  CLOfficeSDK: 02dc07a7630fa2897101ff14feff1918addd1e22
+  CocoaLumberjack: fe45108355a1c76283cfb693b8d75dbe0465c811
+  COCommonUIKit: 36c733c2359c806535584166ff4eb22d03cc7548
+  COCommonUtils: 86abb5e3a8b44010d7ecd3cccba89316bc7d6c55
+  ContentServiceSDK: 9272536068d8a3bf0638c179d90d605f62e76ca6
+  CSBaseSDK: e22610ff05098e2c9c9030389fd981bbddd8b888
+  CSNotificationView: 017c0c4e2342f739204f84fbfab386edbf1c14f6
+  CSObjectSDK: 0e4cf35be431a9a6ac2d0411b9cb37a924f97ee3
+  FLAnimatedImage: d7bb2f1493cf7d509405d307c0104e8f5b4fed55
+  FMDB: da3520e0a2d0a72c4be15a1bb5ed6bae0aee1b15
+  JRSwizzle: ef2fd276888a538ba5a15885f3c04ef960fdcda4
+  KVOController: c27dd7d0f5ab85b1aa874dbbe2f8e9a64847dca2
+  libextobjc: 97e8851c4365274614ff85341a0ef75b52b0399a
+  libwebp: a6a13c61de95b14f47f5ed9f9f883c773fdaae96
+  M13OrderedDictionary: 0c481eafae3487b1ed4032325f3acbecee7bf8d3
+  Mantle: 83985ea092e42daaa5752e152ea87f44182a39ee
+  Masonry: fb91fa3d94ab50780cd64f88c2d1a8d8789ea9d5
+  MBProgressHUD: 83ee66483d602da4b7b62b9c6f30457efefc7428
+  MBProgressHud+MUIExtend: 4e58d1cc5fe37ae13ec71271ad664b38ecab2261
+  MTLFMDBAdapter: c8d9ac51b7ad3a67744961aa6474ed8b7fd26035
+  MUIKit: 8566c1857e6af2200e681ea44cab5924139c65e9
+  MUIMultiPhotoController: 3138759ff9f6d7e5606c97521b20432dcd454a94
+  MUIPullRefreshView: e621dee0694dfe611d34c6980afbb8c42ab47802
+  MUPAssetsKit: 324ed9c87ef13c71019b093ec74eb2728265e8bb
+  MUPFoundation: a5ad8d194be8aa85ff0f7b8552f8e4dc8cd35e7b
+  MUPFoundationNetworking: b83efa55cd13753ef43e2ec4b1c747ab352a35ec
+  MUPFoundationProfiler: 43b12a361545a702f5be2c45e275527c6979af5d
+  MUPFoundationUtils: eeb1ca2aa90b0549c28333fd8516c6bbe967218a
+  MUPSQLiteORM: 1f137170c20b35c9baf18a9f71dd03293b2167b8
+  opencore-amr: afae5c4bab16fb4ea7fa2ba7370187aeb2d2fae5
+  PSPDFUIKitMainThreadGuard-SDP: 4686cf23832ffc6723e8ef1961d0270fcec690da
+  PSTAlertController: 4d5ec0cd9c2bd67277cb742bccaabd27e671e46f
+  Reachability: 97e7e6296e13b89674050a253274a2a4fd970413
+  React: f83b30b8aac98df51575d3471ea313455ab70209
+  RegexKitLite-SDP: d02f682a063ce84127b61d5eb10a56f7290a1d57
+  SDWebImage: e93732dcc13933972279b06768a771434e2ab2e4
+  SmartCan: 166d27893723baa280408fb5400fb1db82347e3e
+  SMCDataLayer: 703382bf7c734ead9fb5bcf222846113d1a5928e
+  SSKeychain: 63a303262a1fab0177f2cf3f892d73632fa605be
+  SSZipArchive: 3b7b17a7cdddcc4081149d63a8510b8e6283b703
+  UCExtend: 5724da38fa5b866614ca3051e1363e911ccf53f8
+  UCSDK: 256ab2c12270c42aef545c88ef5d2e382bed9214
+  Yoga: e8762af4e7aaeee5eddf542d427dfd616e639076
+  YTKKeyValueStore: 3b221ea86175433e9fb1a04d4e7df00bd712963c
+
+PODFILE CHECKSUM: 0a5c66cd8afc54706031b502fb801df7b68e355e
+
+COCOAPODS: 1.2.0

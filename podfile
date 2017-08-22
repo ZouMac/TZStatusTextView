@@ -1,0 +1,13 @@
+source 'http://git.sdp.nd/CompiledMirrors/Specs.git'
+source 'ssh://git@cocoapods.sdp.nd:/cocoapods/specs.git'
+
+platform :ios, '8.0'
+
+project 'TZAttributedText'
+
+
+target 'TZAttributedText' do
+
+    pod 'COCommonUIKit'
+    pod 'RegexKitLite-SDP'
+end
