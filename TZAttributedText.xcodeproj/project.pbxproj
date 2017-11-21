@@ -123,6 +123,7 @@
 		63364C301F49B4B8002B269C /* w_xianhua@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63364BCC1F49B4B8002B269C /* w_xianhua@2x.png */; };
 		63364C311F49B4B8002B269C /* w_xiayu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63364BCD1F49B4B8002B269C /* w_xiayu@2x.png */; };
 		63364C321F49B4B8002B269C /* w_yueliang@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63364BCE1F49B4B8002B269C /* w_yueliang@2x.png */; };
+		635413D21FC3BA7A000F5EFB /* b.m in Sources */ = {isa = PBXBuildFile; fileRef = 635413D11FC3BA7A000F5EFB /* b.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -264,6 +265,8 @@
 		63364BCC1F49B4B8002B269C /* w_xianhua@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "w_xianhua@2x.png"; sourceTree = "<group>"; };
 		63364BCD1F49B4B8002B269C /* w_xiayu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "w_xiayu@2x.png"; sourceTree = "<group>"; };
 		63364BCE1F49B4B8002B269C /* w_yueliang@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "w_yueliang@2x.png"; sourceTree = "<group>"; };
+		635413D01FC3BA7A000F5EFB /* b.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = b.h; sourceTree = "<group>"; };
+		635413D11FC3BA7A000F5EFB /* b.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = b.m; sourceTree = "<group>"; };
 		B9FC1EA1FC2F398A1E50014B /* Pods-TZAttributedText.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TZAttributedText.release.xcconfig"; path = "Pods/Target Support Files/Pods-TZAttributedText/Pods-TZAttributedText.release.xcconfig"; sourceTree = "<group>"; };
 		FEC78D9B6C0AC4B701663F2B /* Pods-TZAttributedText.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TZAttributedText.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TZAttributedText/Pods-TZAttributedText.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -315,6 +318,8 @@
 				63364AFF1F499616002B269C /* AppDelegate.m */,
 				63364B011F499616002B269C /* ViewController.h */,
 				63364B021F499616002B269C /* ViewController.m */,
+				635413D01FC3BA7A000F5EFB /* b.h */,
+				635413D11FC3BA7A000F5EFB /* b.m */,
 				63364B541F49A606002B269C /* TZStatusTextView.h */,
 				63364B551F49A606002B269C /* TZStatusTextView.m */,
 				63364B2B1F49A0B4002B269C /* TZEmotionTool.h */,
@@ -760,6 +765,7 @@
 				63364B641F49B287002B269C /* TZSpecialPart.m in Sources */,
 				63364AFD1F499616002B269C /* main.m in Sources */,
 				63364B2D1F49A0B4002B269C /* TZEmotionTool.m in Sources */,
+				635413D21FC3BA7A000F5EFB /* b.m in Sources */,
 				63364B661F49B287002B269C /* TZTextPart.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
